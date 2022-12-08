@@ -14,6 +14,56 @@ body{
 
 }
 
+.head{
+
+    background-color: #746d94;
+
+    margin: 20px;
+}
+
+.menu{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sub-menu{
+
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: larger;
+    font-weight: 700;
+    /* text-decoration: none; */
+    display: flex;
+    justify-content: space-between;
+}
+.sub-menu a{
+
+    text-decoration: none;
+    color: orange;
+    padding: 20px;
+}
+.icon a{
+
+    font-size: large;
+}
+
+.fa-user{
+    font-size: 3em;
+    margin-top: 25px;
+    color: orange;
+}
+
+.fa-right-to-bracket{
+
+    font-size: 3em;
+    margin-top: 25px;
+    padding: 10px;
+    color: orange;
+}
+
 /* common style end */
 main{
 

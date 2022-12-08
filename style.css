@@ -1,5 +1,179 @@
-/* body */
+
+/* import google font link */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+
+/* common style start */
+
+
+body{
+
+    /* google font style */
+    font-family: 'Montserrat', sans-serif;
+    /* body background color */
+    background-color: #E5E5E5;
+
+}
+
+/* common style end */
+main{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+
+
+}
+
+.container{
+
+     width: 870px;
+    /* height: 679px;  */
+    background-color: #FFFFFF ;
+    border-radius: 5px;
+    padding: 30px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* main style start */
 
 
 
-/* body */
+/* main style end */
+
+.title{
+    margin-left: 25px;
+    color: #562EFF ;
+    font-size: 24px;
+    font-weight: 500;
+    
+    /* padding: 25px; */
+}
+
+/* player style start */
+
+.player{
+
+    display: flex;
+    margin-left: 30px ;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-top: 15px;
+}
+.player h3{
+
+   margin-left: 15px;
+   font-size: 18px;
+   font-weight: 500px;
+   color: #000000;
+   
+}
+.player img{
+
+    width: 56px;
+    height: 56px;
+}
+/* player style end */
+
+
+/* players style start */
+.players{
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+hr{
+
+    border: 1px solid #D1D1D1;
+}
+
+/* players style  end */
+
+.title-blogs{
+
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-left: 30px;
+    
+}
+
+.top-blogs{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 16px;
+    /* grid-column-gap: 40px; */
+}
+.blog{
+
+    margin: 30px;
+}
+
+
+.blog img{
+
+    width: 177px;
+    height: 117px;
+
+}
+.blog h2{
+
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    
+}
+
+.blog-anchor{
+
+    text-decoration: none;
+}
+
+/* course */
+
+.course-container{
+
+   margin-top: 20px;
+   background-color: white;
+   width: 930px;
+   border-radius: 5px;
+}
+
+.course-title{
+
+    color: #562EFF;
+    font-size: 24px;
+    font-weight: 500px;
+    margin-left: 69px;
+    margin-top: 23px;
+    
+    
+}
+
+.latest-course{
+
+    margin-left: 69px;
+}
+
+.latest-course img{
+
+    width: 224px;
+    height: 184px;
+   
+    
+
+}
+
+.course-anchor{
+
+    text-decoration: none;
+    
+}
+
+
+
+

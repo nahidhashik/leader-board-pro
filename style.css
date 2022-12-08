@@ -156,7 +156,10 @@ hr{
 
 .latest-course{
 
-    margin-left: 69px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .latest-course img{
@@ -173,6 +176,30 @@ hr{
     text-decoration: none;
     
 }
+
+.progress{
+    display: flex;
+}
+
+.fa-star{
+  color: orange;
+ 
+}
+
+#spec{
+
+    color: rgb(221, 208, 208);
+}
+.rating{
+
+    margin-left: 5px;
+}
+.clock{
+
+    margin-left: 5px;
+}
+
+
 
 
 
